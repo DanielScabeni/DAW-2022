@@ -1,0 +1,41 @@
+*{ /*{}*/
+    margin: 0;
+    padding: 0;
+}
+body {  
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    padding: 0 20px;
+}
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header .brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16;
+}
+header .brand img {
+    width: 40px;
+}
+header .brand h6 {
+    font-size: 24px;
+    color: #01528a;
+    font-weight: 400;
+    line-height: 30px;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 16px;
+}
+header ul li {
+    font-weight: 300;
+    line-height: 30px;
+}
