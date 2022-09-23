@@ -5,6 +5,10 @@
 body {  
     font-family: 'Roboto', sans-serif;
 }
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
 header {
     padding: 20px 20px 0 20px;
 }
@@ -62,6 +66,7 @@ header li button {
     padding: 8px 20px;
     border-radius: 4px;
     margin-left: 16px;
+    line-height: 20px;
 }
 main {
     margin: 32px 0;
@@ -78,8 +83,10 @@ section {
     margin-top: 64px;
 }
 #banner {
+    position: relative;
     height: 550px;
     border: 1px solid #dcdceb;
+    background: #fff;
     border-radius: 10px;
     color: #0152ba;
     background-image: url(../img/background-house.png);
@@ -99,11 +106,81 @@ section {
     line-height: 36px;
     margin-bottom: 32px;
 }
-
-
-
-#cards {
-    margin: 32px 0;
+#banner .banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 650px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0), #ffffff 50%);
+}
+#banner .banner-filter {
+    background-color: #fff;
+    border: 1px solid #dcdceb;
+    border-radius: 10px;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 21px 43px rgba(8,137,212,0.1);
+}
+#banner .filter-fields {
+    width: 100%;
+    margin-right: 20px;
+}
+#banner .filter-fields form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
+#banner .filter-result{
+    border-left:  2px solid #0889d4;
+    width: 80px;
+    padding: 20px, 20px, 20px, 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#banner .result-label {
+    font-size: 12px;
+    font-weight: 300;
+    color: #989898;
+}
+#banner .result-value {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+#banner .filter-result button{
+    background-color: #0889d4;
+    margin-top: 16px;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12;
+    text-transform: uppercase;
+}
+#banner .filter-fields select {
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 2;
+    color: #212529;
+    background-color: #f4f4f4;
+    background-image: url('../img/arrow-select.svg');
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #f4f4f4;
+    border-radius: .0;
+    appearance: none;
 }
 #cards .cards-content {
     display: flex;
@@ -145,6 +222,7 @@ section {
     justify-content: end;
     right: 20px;
     bottom: 20px;
+
 }
 #cards .card-price p {
     background-color: #0889d4;
@@ -153,11 +231,9 @@ section {
     border-radius: 4px;
     padding: 8px 16px;
 }
-
 #reasons {
     margin-top: 0;
 }
-
 #reasons .reasons-content {
     display: flex;
     flex-direction: row;
@@ -183,9 +259,6 @@ section {
     font-size: 24px;
     color: #8f90a6;
 }
-
-
-
 #specialists .specialists-content {
     display: flex;
     flex-direction: row;
