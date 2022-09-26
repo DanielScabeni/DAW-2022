@@ -1,4 +1,70 @@
-header .brand {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia, serif;
+    color: #252525;
+}
+body, h1, h2, h3, p, ul {
+    padding: 0px;
+}
+div, main {
+    display: block;
+}
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+header {
     background-color: #252525;
     padding: 20px 0;
+    display: block;
+}
+.container::after, .container::before {
+    content: "";
+    display: table;
+    clear: both;
+}
+a.menu-logo {
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.menu-nav {
+    float: right;
+    margin-right: 10px;
+}
+.menu-nav li {
+    display: inline-block;
+}
+.menu-nav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 1.125em;
+    padding: 10px;
+    text-decoration: none;
+}
+.intro {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: url(../img/bg-intro.jpg) center center / cover no-repeat;
+    padding: 150px 0px;
+}
+.intro h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+}
+.intro h1::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+}
+.intro p {
+    font-style: italic;
+    font-size: 1.125em;
 }
