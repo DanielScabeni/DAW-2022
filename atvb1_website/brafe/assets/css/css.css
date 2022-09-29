@@ -13,8 +13,8 @@ body, h1, h2, h3, p, ul {
 div, main {
     display: block;
 }
-.container {
-    max-width: 1160px;
+.container, section {
+    max-width: 960px;
     margin: 0 auto;
 }
 header {
@@ -22,7 +22,7 @@ header {
     padding: 20px 0;
     display: block;
 }
-.container::after, .container::before {
+.container::after, .container::before, section::after {
     content: "";
     display: table;
     clear: both;
@@ -67,4 +67,147 @@ a.menu-logo {
 .intro p {
     font-style: italic;
     font-size: 1.125em;
+}
+.sobre {
+    padding: 60px 0;
+}
+.sobre h2 {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 60px;
+}
+.sobre-item {
+    width: 460px;
+    float: left;
+    margin: 0 10px;
+}
+.sobre-item img {
+    display: block;
+    max-width: 100%;
+}
+.sobre-item h3 {
+    font-size: 2.25em;
+    line-height: 1em;
+    background-color: rgb(37, 37, 37);
+    width: 220px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    top: -25px;
+    position: relative;
+    padding: 5px 0 10px;
+}
+.sobre > p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    font-style: italic;
+    text-align: center;
+    max-width: 460px;
+    margin: 20px auto;
+}
+.produtos {
+    background-color: rgb(231, 228, 216);
+    padding: 60px 0;
+    border-top: 3px solid rgb(214, 211, 200);
+    border-bottom: 3px solid rgb(214, 211, 200);
+    max-width: none;
+}
+.produtos-item {
+    width: 300px;
+    float: left;
+    margin: 0 10px 20px;
+}
+.produtos-item h2 {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+.produtos-item h2::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: currentcolor;
+    box-shadow: currentcolor 0 0 0 10px;
+    border-radius: 50%;
+    margin: 20px auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(231, 228, 216);
+    border-image: initial;
+}
+h2.produtos-paulista::before {
+    color: rgb(73, 41, 1);
+}
+h2.produtos-carioca::before {
+    color: rgb(193, 113, 57);
+}
+h2.produtos-mineiro::before {
+    color: rgb(215, 165, 77);
+}
+.produtos-item p {
+    font-size: 0.875em;
+    line-height: 1.4em;
+}
+.btn-produtos {
+    width: 180px;
+    color: rgb(37, 37, 37);
+    display: block;
+    font-size: 1.125em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    text-decoration: none;
+    padding: 15px 0;
+    margin: 20px auto 0;
+}
+.locais {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.locais-itens {
+    clear: both;
+    margin: 60px auto;
+}
+.locais-itens:after, .locais-itens::before {
+    display: table;
+    content: "";
+    clear: both;
+}
+.locais-itens img {
+    width: 460px;
+    display: block;
+    float: left;
+    margin: 0 10px;
+}
+.locais-itens > div {
+    width: 460px;
+    float: left;
+    margin: 0 10px;
+}.locais-itens h2 {
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+.locais-itens p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    max-width: 320px;
+    margin-bottom: 40px;
+}
+.locais-itens a {
+    font-size: 1.125em;
+    text-transform: uppercase;
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    border-width: 3px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 10px 20px;
 }
