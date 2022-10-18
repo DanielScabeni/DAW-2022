@@ -1,0 +1,84 @@
+footer {
+    background-color: #0889d4;
+    color: #fff;
+    margin-top: 48px;
+    padding: 48px 0;
+}
+footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+footer .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .footer-company {
+    width: 450px;
+}
+footer .footer-company .footer-logo {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-left: 40px;
+    background-image: url('../../assets/img/logo_imobiliaria_branca.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 32px;
+    margin-bottom: 16x;
+}
+footer .footer-logo p {
+    font-size: 12px;
+    font-weight: 300;
+}
+footer .footer-menu {
+    font-size: 14px;
+    font-weight: 300;
+}
+footer .footer-menu-title {
+    font-size: 16px;
+    font-weight: 400;
+}
+footer .footer-menu ul {
+    margin-top: 16px;
+    list-style-type: none;
+}
+footer .footer-menu li {
+    margin-bottom: 8px;
+}
+footer .footer-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+footer .footer-menu a:hover {
+    text-decoration: underline;
+}
+footer .footer-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 16px;
+}
+footer .footer-social span {
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 16px;
+}
+footer .footer-social .facebook {
+    background-image: url('../../assets/img/icon-facebook.svg');
+}
+footer .footer-social .twitter {
+    background-image: url('../../assets/img/icon-twitter.svg');
+}
+footer .footer-social .instagram {
+    background-image: url('../../assets/img/icon-instagram.svg');
+}
+footer .footer-social .linkedin {
+    background-image: url('../../assets/img/icon-linkedin.svg');
+}
+footer .footer-copyright {
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
+}
