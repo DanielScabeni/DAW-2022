@@ -1,0 +1,32 @@
+#values .values-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+#values .values-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+}
+#values .values-content p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+}
+#values .values-detail {
+    padding: 32px;
+}
+#values .values-detail .value{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#values .values-detail span{
+    background-image: url("../img/bullet-values.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
