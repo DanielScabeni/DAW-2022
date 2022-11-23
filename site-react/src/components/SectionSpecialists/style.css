@@ -10,7 +10,7 @@
     border: 1.5px solid #dcdceb;
     border-radius: 16px;
     padding: 20px;
-    color: #01528a;
+    color: #01528A;
 }
 #specialists .specialist h5 {
     font-size: 24px;
@@ -22,7 +22,7 @@
     font-weight: 300;
 }
 #specialists .specialist-detail {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     color: #000;
     text-align: justify;

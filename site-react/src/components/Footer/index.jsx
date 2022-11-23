@@ -24,7 +24,7 @@ export function Footer() {
                     </div>
 
                     <div className="footer-menu">
-                        <p className="footer-menu-title"></p>
+                        <p className="footer-menu-title">Contato</p>
                         <ul>
                             <li>+55 (46) 9 99911-2222</li>
                             <li>Rua Mato Grosso, 200</li>
@@ -33,7 +33,7 @@ export function Footer() {
                     </div>
 
                     <div className="footer-menu">
-                        <p className="footer-menu-title">Contato</p>
+                        <p className="footer-menu-title">Parceiross</p>
                         <ul>
                             <li><a href="#">Empresa XPTO</a></li>
                             <li><a href="#">Empresa do Zeca</a></li>
@@ -41,7 +41,6 @@ export function Footer() {
                             <li><a href="#">Empresa do Tonhão</a></li>
                         </ul>
                     </div>
-
                 </div>
 
                 <div className="footer-social">
@@ -52,7 +51,7 @@ export function Footer() {
                 </div>
 
                 <p className="footer-copyright">
-                    &#169; 2022 - Todos os direitos reservadoss
+                    &#169; 2022 - Todos os direitos reservados
                 </p>
             </div>
         </footer>

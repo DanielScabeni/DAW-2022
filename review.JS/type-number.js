@@ -3,7 +3,7 @@ const segundoNro = 5;
 
 const resultado = primeiroNro + segundoNro;
 
-console.log(`${primeiroNro} + ${segundoNro} = ${primeiroNro} + ${segundoNro}`)
+console.log(`${primeiroNro} + ${segundoNro} = ${primeiroNro + segundoNro}`)
 
 const value1 = 3;
 const value2 = '3';

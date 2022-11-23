@@ -5,10 +5,10 @@ const primeiroObjeto = {
     outroObjeto: {
         atributo: 'valor'
     },
-    vetor: {
-        (valor: 1),
-        (valor: 2)
-    }
+    vetor: [
+        {valor: 1},
+        {valor: 2}
+    ]
 }
 
 console.log(primeiroObjeto)

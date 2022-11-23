@@ -12,10 +12,11 @@ const processa = (ini, fim) => {
     fim();
 }
 
-processa(inicio, fim)
+processa(inicio, fim);
  
-processa() => {
+
+processa(() => {
     console.log('inicio 2')
 }, () => {
     console.log('fim 2')
-}
+})

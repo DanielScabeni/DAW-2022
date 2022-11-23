@@ -1,34 +1,36 @@
 import './style.css';
 
+const especialistas = [
+    {
+        nome: 'Tutu Williams',
+        cidade: 'London',
+        descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium error, labore odio facilis quasi quaerat debitis qui fugit pariatur neque voluptatibus consequatur similique hic saepe perspiciatis tempore, delectus beatae eligendi!'
+    },
+    {
+        nome: 'Mark Zion',
+        cidade: 'New York City',
+        descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium error, labore odio facilis quasi quaerat debitis qui fugit pariatur neque voluptatibus consequatur similique hic saepe perspiciatis tempore, delectus beatae eligendi!'
+    },
+    {
+        nome: 'Essien Crest',
+        cidade: 'Berlin',
+        descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium error, labore odio facilis quasi quaerat debitis qui fugit pariatur neque voluptatibus consequatur similique hic saepe perspiciatis tempore, delectus beatae eligendi!'
+    }
+];
+
 export function SectionSpecialists() {
     return (
         <section id="specialists">
             <h2>Converse com um Especialista</h2>
             <div className="specialists-content">
 
-                <div className="specialist">
-                    <h5>Tutu Williams</h5>
-                    <p>Londom</p>
-                    <p className="specialist-detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
-                        amet, earum dignissimos sapiente ipsa dolorem harum commodi tenetur! Laboriosam voluptate
-                        doloribus quod culpa sequi iste commodi. Saepe mollitia suscipit dolor.</p>
+                { especialistas.map((item,index) => (
+                    <div key={index} className="specialist">
+                        <h5>{ item.nome }</h5>
+                        <p>{ item.cidade }</p>
+                        <p className="specialist-detail">{ item.descricao }</p>
                 </div>
-
-                <div className="specialist">
-                    <h5>Mark Zion</h5>
-                    <p>New York City</p>
-                    <p className="specialist-detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
-                        amet, earum dignissimos sapiente ipsa dolorem harum commodi tenetur! Laboriosam voluptate
-                        doloribus quod culpa sequi iste commodi. Saepe mollitia suscipit dolor.</p>
-                </div>
-
-                <div className="specialist">
-                    <h5>Essien Crest</h5>
-                    <p>Berlin</p>
-                    <p className="specialist-detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
-                        amet, earum dignissimos sapiente ipsa dolorem harum commodi tenetur! Laboriosam voluptate
-                        doloribus quod culpa sequi iste commodi. Saepe mollitia suscipit dolor.</p>
-                </div>
+                ))}
 
             </div>
         </section>

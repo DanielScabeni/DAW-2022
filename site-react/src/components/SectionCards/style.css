@@ -47,3 +47,10 @@
     border-radius: 4px;
     padding: 8px 16px;
 }
+#cards .not-found {
+    font-weight: 300;
+    font-size: 32px;
+    padding-bottom: 56px;
+    color:#8f90a6;
+    text-align: center;
+}
