@@ -1,0 +1,25 @@
+header {
+    background-color: #252525;
+    padding: 20px 0;
+    display: block;
+}
+a.menu-logo {
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.menu-nav {
+    float: right;
+    margin-right: 10px;
+}
+.menu-nav li {
+    display: inline-block;
+}
+.menu-nav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 1.125em;
+    padding: 10px;
+    text-decoration: none;
+}
+

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia, serif;
+    color: #252525;
+}
+body, h1, h2, h3, p, ul {
+    padding: 0px;
+}
+div, main {
+    display: block;
+}
+.container, section {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container::after, .container::before, section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+

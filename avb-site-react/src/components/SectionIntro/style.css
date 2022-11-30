@@ -1,0 +1,22 @@
+.intro {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: url(../img/bg-intro.jpg) center center / cover no-repeat;
+    padding: 150px 0px;
+}
+.intro h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+}
+.intro h1::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+}
+.intro p {
+    font-style: italic;
+    font-size: 1.125em;
+}

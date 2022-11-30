@@ -1,0 +1,38 @@
+.sobre {
+    padding: 60px 0;
+}
+.sobre h2 {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 60px;
+}
+.sobre-item {
+    width: 460px;
+    float: left;
+    margin: 0 10px;
+}
+.sobre-item img {
+    display: block;
+    max-width: 100%;
+}
+.sobre-item h3 {
+    font-size: 2.25em;
+    line-height: 1em;
+    background-color: rgb(37, 37, 37);
+    width: 220px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    top: -25px;
+    position: relative;
+    padding: 5px 0 10px;
+}
+.sobre > p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    font-style: italic;
+    text-align: center;
+    max-width: 460px;
+    margin: 20px auto;
+}
