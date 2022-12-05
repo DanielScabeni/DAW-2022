@@ -2,7 +2,7 @@ import './style.css';
 
 import imgSobre from '../../assets/img/cafe-2.jpg';
 
-export function Sobre() {
+export function SectionSobre() {
     return (
         <section className="sobre">
             <h2>Uma Mistura de</h2>

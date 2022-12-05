@@ -52,33 +52,33 @@ assine .container::after, assine .container::before {
     border-image: initial;
     padding: 13px 0;
 }
-footer {
+.footer {
     background-color: rgb(37, 37, 37);
     padding: 0 0 40px;
 }
-footer .container {
+.footer .container {
     max-width: 960px;
     margin: 0 auto;
     padding: 40px 0 0 0;
     display: block;
 }
-footer .container::after, footer .container::before {
+.footer .container::after, .footer .container::before {
     content: "";
     display: table;
     clear: both;
 }
-footer p {
+.footer p {
     color: rgb(255, 255, 255);
     float: left;
     font-size: 1.125em;
     line-height: 1.4em;
     margin: 0px 10px;
 }
-footer img {
+.footer img {
     float: right;
     display: block;
     margin: 0px 10px;
 }
-footer .container:first-child { 
+.footer .container:first-child { 
     padding: 0;
 }

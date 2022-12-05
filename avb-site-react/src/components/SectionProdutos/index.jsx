@@ -1,6 +1,6 @@
 import './style.css';
 
-export function Produtos() {
+export function SectionProdutos() {
     return (
         <section className="produtos">
             <div className="container">

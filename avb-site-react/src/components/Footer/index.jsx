@@ -4,7 +4,7 @@ import imgFinal from '../../assets/img/brafe.png';
 
 export function Footer() {
     return (
-        <div>
+        <div className="footer">
             <section className="assine">
                 <div className="container">
                     <div className="info">
