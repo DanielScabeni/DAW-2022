@@ -16,5 +16,5 @@
   </tr>
 </table>
 
-| [![Card 1](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielScabeni&layout=donut-vertical&theme=dark)](https://github.com/DanielScabeni) | [![Card 2](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielScabeni&langs_count=8&theme=chartreuse-dark)](https://github.com/DanielScabeni) | [![Card 3](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielScabeni&layout=pie)](https://github.com/DanielScabeni) |
+| [![Card 1](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielScabeni&layout=donut-vertical&theme=dark)](https://github.com/DanielScabeni) | [![Card 2](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielScabeni&langs_count=8&theme=dark)](https://github.com/DanielScabeni) | [![Card 3](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielScabeni&layout=pie&theme=dark)](https://github.com/DanielScabeni) |
 | --- | --- | --- |
